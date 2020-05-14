@@ -3,7 +3,8 @@ import os
 
 import pandas as pd
 
-PATH_MOVIELENS = f'{os.environ["HOME"]}/Documents/Datasets/movielens-20m-dataset'
+from constants import PATH_MOVIELENS
+
 FILES = glob.glob(PATH_MOVIELENS + '/**')
 
 

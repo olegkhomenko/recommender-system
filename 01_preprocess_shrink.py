@@ -1,10 +1,9 @@
-import os
 import pandas as pd
+
+from constants import PATH_MOVIELENS
 
 N_USERS_TO_KEEP = 1000
 N_MOVIES_TO_KEEP = 2000
-
-PATH_MOVIELENS = f'{os.environ["HOME"]}/Documents/Datasets/movielens-20m-dataset'
 
 
 def main():
